@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Es necesario importar los estilos para una mejor presentacion -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        El siguiente codigo lo puedes colocar en cualquier parte de tu cuerpo de pagina
+        pero yo recomiendo que se coloque abajo de la cabecera de la página
+        Ademas, es importante que el z-index del banner sea 1, y el resto del contenido
+        sea un z-index 0
+    -->
+    <section class="hero is-danger px-6" style="z-index: 1; position: fixed; background-color: indigo; width: 100%;">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    P&aacute;gina en mantenimiento
+                </h1>
+                <h2 class="subtitle">
+                    Scripts a&uacute;n no disponibles
+                </h2>
+                <progress class="progress is-medium is-success" max="100">15%</progress>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
